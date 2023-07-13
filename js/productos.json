@@ -1,0 +1,89 @@
+const productos = [
+    {
+    id: "remera-01",
+    titulo: "remera 01",
+    imagen: "./img/remeras/reme01.jpg",
+    categoria: {
+        nombre: "Remeras",
+        id: "remeras"
+    },
+    precio: 1200
+    },
+
+    {
+    id: "remera-02",
+    titulo: "remera 02",
+    imagen: "./img/remeras/reme02.jpg",
+    categoria: {
+        nombre: "Remeras",
+        id: "remeras"
+    },
+    precio:1200
+   },
+
+    {
+    id: "remera-03",
+    titulo: "remera 03",
+    imagen: "./img/remeras/reme03.jpg",
+    categoria: {
+        nombre: "Remeras",
+        id: "remeras"
+    },
+    precio: 1200
+    },
+
+    {
+    id: "remera-04",
+    titulo: "remera 04",
+    imagen: "./img/remeras/reme04.jpg",
+    categoria: {
+        nombre: "Remeras",
+        id: "remeras"
+    },
+    precio: 1200
+    },
+            
+    {
+    id: "pantalon-01",
+    titulo: "Jean 01",
+    imagen: "./img/pantalones/jean01.jpg",
+    categoria: {
+        nombre: "Pantalones",
+        id: "pantalones"
+    },
+    precio: 2000
+    },
+
+    {
+    id: "pantalon-02",
+    titulo: "Jean 02",
+    imagen: "./img/pantalones/jean02.jpg",
+    categoria: {
+        nombre: "Pantalones",
+        id: "pantalones"
+    },
+    precio: 2000
+    },
+    
+    {
+    id: "pantalon-03",
+    titulo: "Jean 03",
+    imagen: "./img/pantalones/jean03.jpg",
+    categoria: {
+        nombre: "Pantalones",
+        id: "pantalones"
+    },
+    precio: 2000
+    },
+    
+    {
+    id: "pantalon-04",
+    titulo: "Jean 04",
+    imagen: "./img/pantalones/jean04.jpg",
+    categoria: {
+        nombre: "Pantalones",
+        id: "pantalones"
+    },
+    precio: 2000
+    }  
+];
