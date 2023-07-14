@@ -130,7 +130,7 @@ align-items: center;
     display: flex;
     justify-content: space-between;
 }
-.boton-producto-eliminar {
+.carrito-producto-eliminar {
     cursor: pointer;
     background-color: black;
     color: snow; 
@@ -164,4 +164,7 @@ align-items: center;
     color: snow; 
     border: 0;
     padding: .5rem;
+}
+.disabled {
+    display: none;
 }
