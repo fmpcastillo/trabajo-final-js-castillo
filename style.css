@@ -4,40 +4,43 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
-.contenedor-header{
+header {
+    background-color: black;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    display: block;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
-.navbar {
-   display: flex;
-   justify-content:space-around;
-   list-style: none;
-   align-items: center;
-    
+.contenedor-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
 }
+#cotizaciones {
+    color: white;
+}
+.contenedor-barra {
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor-categorias { 
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.contenedor-boton-carrito {
+    display: flex;
+    gap: 1rem;
+    padding-right: 3rem;
+}
+
 button {
-  
     padding-left: 1rem ;
     padding-right: 1rem;
 }
-
-.contenedor-categorias {
-    list-style: none;
-    display: flex;
-    gap: 1rem;  
-}
-
-
-.contenedor-logo {
-    margin: 0;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-}
-
 
 
 li a {
@@ -53,18 +56,22 @@ li a {
 }
 
 .iconos {
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 1.5rem;
 }
-.numerito {
-    font-size: 12px;
+#numerito {
+    font-size: 1.5rem;
+    color: white;
 }
 
-
+main {
+    padding: 2rem;
+}
 
 .imagen-producto {
-    max-width: 100% ;
+    max-width: 100%;
 }
+
 .contenedor-productos {
     overflow: hidden;
     display: grid;
@@ -78,14 +85,14 @@ li a {
     position:relative;
     display: flex;
     flex-direction: column;
-    gap: rem;
-    text-transform: uppercase;
+    gap: 0.5rem;
+    text-transform: capitalize;
 
 }
 
 .boton-agregar {
     border: 0;
-    background-color: cornsilk;
+    
     text-transform: uppercase;
     padding: 0rem;
     margin: 0rem;
@@ -93,6 +100,7 @@ li a {
     border: solid snow;
     width: 100%;
 }
+
 .boton-agregar:hover {
     background-color: black;
     color: snow;
@@ -101,6 +109,25 @@ li a {
 
 
 /**carrito**/
+.contenedor-titulo-boton-volver {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+h1 {
+    font-size: 2rem;
+    color: white;
+}
+.boton-volver {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+i{
+    color: white;
+}
 .contenedor-carrito {
     display: flex;
     flex-direction:column;
@@ -130,7 +157,7 @@ align-items: center;
     display: flex;
     justify-content: space-between;
 }
-.carrito-producto-eliminar {
+.carrito-producto-eliminar:hover {
     cursor: pointer;
     background-color: black;
     color: snow; 

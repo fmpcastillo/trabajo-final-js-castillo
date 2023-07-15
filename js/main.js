@@ -104,6 +104,7 @@ function actualizarNumerito() {
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
 }
+
 function obtenerDolar(){
     const URLDOLAR ='https://api.bluelytics.com.ar/v2/latest';
     fetch(URLDOLAR)

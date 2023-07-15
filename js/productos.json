@@ -1,7 +1,7 @@
 [
     {
     "id": "remera-01",
-    "titulo": "remera 01",
+    "titulo": "Remera 01",
     "imagen": "./img/remeras/reme01.jpg",
     "categoria": {
         "nombre": "Remeras",
@@ -12,7 +12,7 @@
 
     {
     "id": "remera-02",
-    "titulo": "remera 02",
+    "titulo": "Remera 02",
      "imagen": "./img/remeras/reme02.jpg",
     "categoria": {
         "nombre": "Remeras",
@@ -23,7 +23,7 @@
 
     {
     "id": "remera-03",
-    "titulo": "remera 03",
+    "titulo": "Remera 03",
     "imagen": "./img/remeras/reme03.jpg",
     "categoria": {
         "nombre": "Remeras",
@@ -34,7 +34,7 @@
 
     {
     "id": "remera-04",
-    "titulo": "remera 04",
+    "titulo": "Remera 04",
     "imagen": "./img/remeras/reme04.jpg",
     "categoria": {
         "nombre": "Remeras",

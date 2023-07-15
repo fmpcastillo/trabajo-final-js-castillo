@@ -115,3 +115,15 @@ function comprarCarrito() {
     contenedorCarritoAcciones.classList.add("disabled");
     contenedorCarritoComprado.classList.remove("disabled");
 }
+function obtenerDolar(){
+    const URLDOLAR ='https://api.bluelytics.com.ar/v2/latest';
+    fetch(URLDOLAR)
+        .then(respuesta => respuesta.json())
+        .then(datos => {
+            console.log(datos);
+            const cotizacionesBlue = datos.blue;
+            document.getElementById('cotizaciones').innerText=`Dolar compra: ${cotizacionesBlue.value_buy} - Dolar venta: ${cotizacionesBlue.value_sell}`;
+        })
+}
+
+obtenerDolar();
